@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.title {
+  font-family: "Cutive Mono", monospace;
+}
+
+.badge {
+  background-color: #d64835;
+  color: white;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-decoration: none;
+  position: absolute;
+  font-family: monospace;
+  font-weight: 700;
+  top: -2px;
+  right: -5px;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
